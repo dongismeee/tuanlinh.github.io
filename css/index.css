@@ -1,0 +1,102 @@
+body{
+    background-color: #ECBEAB;
+}
+.card{
+    width: 800px;
+    height: 1200px;
+    margin: 30px auto;
+    background-color: #ffffff;
+}
+.card__header {
+    width:100%;
+    height: 40%;
+    background: url(../images/z2778754263784_151f87e021cc35ffe9ed741b99197c7f.jpg)no-repeat;
+    background-size:cover ;
+    padding-top: 30px;
+    position: relative;
+}
+.card__header .header__title{
+    color: #ffffff;
+    text-align:center;
+    font-weight: 600;
+    font-size: 36px;
+    font-family: 'Caramel', cursive;
+    margin: 100px 400px 300px 10px;
+    border-right: 5px solid pink;
+    border-left: 5px solid pink;
+    border-bottom: 5px solid pink;
+    border-top: 5px solid pink;
+}
+.card__main{
+    padding: 20px;
+}
+.card__main .main__title{
+    color: #C9724B;
+    padding: 15px;
+    border-bottom: 1px solid rgb(39, 12, 12);
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.card__main .main__info{
+    margin: 20px 0px;
+    display: flex;
+}
+.main__info .info__property{
+    width: 50%;
+   
+}
+.card__main .property{
+    display: flex;
+}
+.info__property .property__icon{
+    height: 380px;
+    width: 380px;
+    display: inline-block;
+}
+.info__property .property__icon img{
+    height: 100%;
+    width: auto;
+    margin: 0px 25px;
+}
+
+.property__text--pink-bold {
+    font-size: 18px;
+    font-weight: bold;
+    color: salmon;
+    height: 16px;
+    line-height: 28px;
+    margin-top: 8px;
+    margin-left: 16px;
+
+}
+.property__text--black-bold {
+    color: salmon;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.footer__btn{
+    margin: auto;
+    background-color: salmon;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px 0px;
+    border-radius:10px ;
+    transition: 0.25s;
+}
+.footer__btn:hover{
+    color: salmon;
+    background-color: #ffffff;
+    transition: 0.25s;
+    
+}
+a{
+    text-decoration: none;
+    font-style: blod;
+    font-size: 18px;
+    color: white;
+}
